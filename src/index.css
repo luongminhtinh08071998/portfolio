@@ -282,7 +282,6 @@ body.light-theme{
 
 .active-link {
   background: linear-gradient(180deg, hsla(var(--first-hue), var(--sat), var(--lig), 1), hsla(var(--first-hue), var(--sat), var(--lig), .2));
-  box-shadow: 0 0 16px hsla(var(--first-hue), var(--sat), var(--lig), .4);
   color: var(--title-color);
 }
 
