@@ -4,7 +4,8 @@ import { BiParty, BiMusic, BiRightTopArrowCircle } from "react-icons/bi";
 
 const About = () => {
  return (
-  <section className="about section" id="about" data-aos="fade-up" data-aos-duration={2000}>
+  <div>
+    <section className="about section" id="about" data-aos="fade-up" data-aos-duration={2000}>
     <div className data-aos="fade-up" data-aos-duration={2000}>
       <span className="section__subtitle">My intro</span>
       <h2 className="section__title">About me</h2>
@@ -35,6 +36,7 @@ const About = () => {
       </div>
     </div>
 </section>
+  </div>
 
  );
 };
